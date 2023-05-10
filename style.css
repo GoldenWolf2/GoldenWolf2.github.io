@@ -39,9 +39,10 @@ nav a {
 	color: #fff;
 }
 
+/* Update the styles for the buttons in the navigation menu */
 nav a[href="#home"],
-nav a[href="#about"],
-nav a[href="#contact"] {
+nav a[href="about.html"],
+nav a[href="contact.html"] {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -53,10 +54,14 @@ nav a[href="#contact"] {
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 5px;
+	transition: all 0.3s ease;
 }
 
-nav a:hover {
-	color: #f2f2f2;
+/* Update the hover styles for the buttons */
+nav a[href="#home"]:hover,
+nav a[href="about.html"]:hover,
+nav a[href="contact.html"]:hover {
+	background-color: #5bc0de;
 }
 
 main {
@@ -212,6 +217,29 @@ footer p {
 
 .contact-form button[type="submit"]:hover {
 	background-color: #45a049;
+}
+
+.social-bar a {
+	background-color: #5bc0de;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+
+}
+
+
+.social-bar a:hover {
+
+	background-color: #6ec8e8;
+
 }
 
 .social-bar {
