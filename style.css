@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	padding: 20px;https
+	padding: 20px;
 	text-align: center;
 }
 
@@ -39,35 +39,9 @@ nav a {
 	color: #fff;
 }
 
-nav a[href="#home"] {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 5px;
-}
-
-nav a[href="#about me"] {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 5px;
-}
-
-nav a[href="#contact me"] {
+nav a[href="#home"],
+nav a[href="#about"],
+nav a[href="#contact"] {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -90,7 +64,9 @@ main {
 	margin: 0 auto;
 	padding: 20px;
 	color: #f2f2f2;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -121,7 +97,9 @@ footer {
 	padding: 20px;
 	text-align: center;
 	color: #f2f2f2;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 footer p {
@@ -129,8 +107,27 @@ footer p {
 	font-size: 14px;
 }
 
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: #45a049;
+}
+
 .dark-theme {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	color: #f2f2f2;
 }
 
@@ -155,6 +152,8 @@ footer p {
 .colorful main {
 	background-color: #fff;
 	color: #333;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .colorful h2 {
@@ -178,3 +177,40 @@ footer p {
 .colorful li:hover {
 	background-color: #e6e6e6;
 }
+
+.contact-form {
+	margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.contact-form textarea {
+	resize: vertical;
+}
+
+.contact-form button[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+	background-color: #45a049;
+}
+
