@@ -39,6 +39,32 @@ nav a {
 	color: #fff;
 }
 
+/* Update the styles for the buttons in the navigation menu */
+nav a[href="index.html"],
+nav a[href="about.html"],
+nav a[href="contact.html"] {
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Update the hover styles for the buttons */
+nav a[href="index.html"]:hover,
+nav a[href="about.html"]:hover,
+nav a[href="contact.html"]:hover {
+    background-color: #6ec8e8;
+}
+
+
 main {
 	max-width: 800px;
 	margin: 0 auto;
