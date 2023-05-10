@@ -40,28 +40,28 @@ nav a {
 }
 
 /* Update the styles for the buttons in the navigation menu */
-nav a[href="#home"],
+nav a[href="index.html"],
 nav a[href="about.html"],
 nav a[href="contact.html"] {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 5px;
-	transition: all 0.3s ease;
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 /* Update the hover styles for the buttons */
-nav a[href="#home"]:hover,
+nav a[href="index.html"]:hover,
 nav a[href="about.html"]:hover,
 nav a[href="contact.html"]:hover {
-	background-color: #5bc0de;
+    background-color: #6ec8e8;
 }
 
 main {
