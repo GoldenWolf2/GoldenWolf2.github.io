@@ -39,6 +39,39 @@ nav a {
 	color: #fff;
 }
 
+nav {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #f2f2f2;
+}
+
+
 /* Update the styles for the buttons in the navigation menu */
 nav a[href="index.html"],
 nav a[href="about.html"],
@@ -281,5 +314,37 @@ footer p {
 
 .social-bar img:hover {
 	transform: scale(1.1);
+}
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav li {
+  margin-bottom: 10px;
+}
+
+.side-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.side-nav a:hover {
+  color: #f2f2f2;
 }
 
