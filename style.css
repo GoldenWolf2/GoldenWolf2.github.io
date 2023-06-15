@@ -43,7 +43,8 @@ nav a {
 nav a[href="index.html"],
 nav a[href="about.html"],
 nav a[href="contact.html"],
-nav a[href="blog.html"]{
+nav a[href="blog.html"]
+nav a[href="request.html"]{
     background-color: #5bc0de;
     border: none;
     color: white;
@@ -62,7 +63,8 @@ nav a[href="blog.html"]{
 nav a[href="index.html"]:hover,
 nav a[href="about.html"]:hover,
 nav a[href="contact.html"]:hover,
-nav a[href="blog.html"]:hover{
+nav a[href="blog.html"]:hover,
+nav a [href="request.html"]:hover{
     background-color: #6ec8e8;
 }
 
